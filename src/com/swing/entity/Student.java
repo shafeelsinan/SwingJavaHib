@@ -17,6 +17,8 @@ public class Student {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ID")
 	private Long id;
+
+//https://download.jar-download.com/cache_jars/org.hibernate/hibernate-java8/5.3.1.Final/jar_files.zip
 	
 	@Column(name="SNAME")
 	private String name;
